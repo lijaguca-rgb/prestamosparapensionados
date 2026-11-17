@@ -1,0 +1,1057 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Préstamos para Jubilados y Pensionados | Descuento directo a nómina</title>
+<meta name="description" content="Préstamos para jubilados y pensionados con descuento directo a nómina. IMSS, ISSSTE, CFE, PEMEX e IPEJAL. Sin límite de edad, hasta 48 meses y trámites sin costo.">
+<meta name="theme-color" content="#2b1748">
+<meta property="og:title" content="Préstamos para Jubilados y Pensionados">
+<meta property="og:description" content="Con descuento directo a nómina. IMSS, ISSSTE, CFE, PEMEX e IPEJAL. Sin límite de edad · Hasta 48 meses · Trámites sin costo.">
+<!-- PENDIENTE: cuando tengas el dominio nuevo, cambia "prestamosjubiladosypensionados.pages.dev" por tu dominio (deja /img/compartir.jpg?v=20261116b al final) -->
+<meta property="og:image" content="../prestamosjubiladosypensionados.pages.dev/img/compartir64d4.html?v=20261116b">
+<meta property="og:type" content="website">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%232b1748'/%3E%3Cpath d='M17 45V19h17a10 10 0 0 1 0 20H17' fill='none' stroke='%23d5ad6b' stroke-width='6' stroke-linejoin='round'/%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com/">
+<link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,500;0,9..144,600;0,9..144,700;1,9..144,500;1,9..144,600&amp;family=Manrope:wght@400;500;600;700;800&amp;display=swap" rel="stylesheet">
+<style>
+:root{
+  --navy:#2b1748; --navy-2:#3a2060; --navy-3:#4d2c7c;
+  --gold:#e3a73b; --gold-2:#f6cd76; --gold-soft:#fdf1d8;
+  --cream:#fbf7ef; --paper:#ffffff;
+  --ink:#22163a; --muted:#6a5f7e; --line:#e6e1d6;
+  --green:#25D366; --green-d:#128C7E;
+  --radius:22px; --radius-lg:32px;
+  --shadow:0 20px 50px -20px rgba(43,23,72,.35);
+  --shadow-sm:0 8px 24px -12px rgba(43,23,72,.25);
+  --ease:cubic-bezier(.22,1,.36,1);
+  --tabbar:74px;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth;-webkit-text-size-adjust:100%}
+body{font-family:"Manrope",system-ui,sans-serif;background:var(--cream);color:var(--ink);font-size:17px;line-height:1.6;overflow-x:hidden;-webkit-font-smoothing:antialiased}
+img{display:block;max-width:100%}
+a{color:inherit;text-decoration:none}
+button{font:inherit;cursor:pointer;border:0;background:none;color:inherit}
+h1,h2,h3{font-family:"Fraunces",Georgia,serif;font-weight:600;line-height:1.08;letter-spacing:-.02em}
+em{font-style:italic;color:var(--gold)}
+.wrap{width:min(1180px,100% - 40px);margin-inline:auto}
+.skip{position:absolute;left:-999px;top:10px;background:var(--gold);color:var(--navy);padding:10px 16px;border-radius:10px;z-index:200;font-weight:700}
+.skip:focus{left:16px}
+:focus-visible{outline:3px solid var(--gold);outline-offset:3px;border-radius:8px}
+
+/* ---------- Progress bar ---------- */
+.progress{position:fixed;top:0;left:0;height:3px;width:100%;transform-origin:left;transform:scaleX(0);background:linear-gradient(90deg,var(--gold),var(--gold-2));z-index:120}
+
+/* ---------- Header ---------- */
+.header{position:fixed;inset:0 0 auto 0;z-index:100;padding:14px 0;transition:padding .4s var(--ease)}
+.header .bar{display:flex;align-items:center;justify-content:space-between;gap:16px;padding:10px 12px 10px 16px;border-radius:999px;transition:background .4s,box-shadow .4s,backdrop-filter .4s;border:1px solid transparent}
+.header.scrolled{padding:10px 0}
+.header.scrolled .bar{background:rgba(43,23,72,.78);backdrop-filter:blur(18px) saturate(1.4);-webkit-backdrop-filter:blur(18px) saturate(1.4);border-color:rgba(255,255,255,.08);box-shadow:0 12px 30px -12px rgba(0,0,0,.45)}
+.brand{display:flex;align-items:center;gap:12px;color:#fff}
+.brand-mark{width:44px;height:44px;border-radius:14px;display:grid;place-items:center;background:var(--gold);flex:none}
+.brand-mark svg{width:28px;height:28px}
+.brand-txt{line-height:1.05}
+.brand-txt b{display:block;font-family:"Fraunces",serif;font-size:19px;letter-spacing:.02em}
+.brand-txt span{font-size:10.5px;letter-spacing:.22em;text-transform:uppercase;color:var(--gold-2);font-weight:700}
+
+.nav{position:relative;display:flex;gap:2px;padding:5px;border-radius:999px;background:rgba(255,255,255,.07);border:1px solid rgba(255,255,255,.1)}
+.nav a{position:relative;z-index:1;padding:9px 16px;font-size:14.5px;font-weight:600;color:rgba(255,255,255,.75);border-radius:999px;transition:color .3s}
+.nav a.active,.nav a:hover{color:#fff}
+.nav a.active{color:var(--navy)}
+.nav .pill{position:absolute;top:5px;bottom:5px;left:0;width:0;border-radius:999px;background:var(--gold);transition:transform .5s var(--ease),width .5s var(--ease),opacity .3s;opacity:0}
+.head-cta{display:flex;align-items:center;gap:10px}
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:10px;font-weight:700;font-size:16px;padding:15px 26px;border-radius:999px;transition:transform .3s var(--ease),box-shadow .3s,background .3s;white-space:nowrap;position:relative;overflow:hidden}
+.btn svg{width:20px;height:20px;flex:none}
+.btn:active{transform:scale(.97)}
+.btn-gold{background:var(--gold);color:var(--navy)}
+.btn-gold:hover{transform:translateY(-2px);background:var(--gold-2)}
+.btn-ghost{color:#fff;border:1.5px solid rgba(255,255,255,.28);background:rgba(255,255,255,.04)}
+.btn-ghost:hover{background:rgba(255,255,255,.1);transform:translateY(-2px)}
+.btn-wa{background:var(--navy);color:#fff}
+.btn-wa svg{color:var(--gold-2)}
+.btn-wa:hover{transform:translateY(-2px);background:var(--navy-3)}
+.btn-sm{padding:11px 18px;font-size:14.5px}
+.icon-btn{width:44px;height:44px;border-radius:50%;display:grid;place-items:center;background:var(--gold);color:var(--navy);transition:background .3s}
+.icon-btn:hover{background:var(--gold-2)}
+.icon-btn svg{width:22px;height:22px}
+
+/* ---------- Hero ---------- */
+.hero{position:relative;background:var(--navy);color:#fff;padding:140px 0 120px;overflow:hidden;isolation:isolate}
+.blob{position:absolute;border-radius:50%;filter:blur(70px);opacity:.55;z-index:-1;animation:float 16s ease-in-out infinite}
+.blob.b1{width:520px;height:520px;background:#5b2d91;top:-160px;left:-140px}
+.blob.b2{width:420px;height:420px;background:#c98a26;bottom:-180px;right:-80px;opacity:.35;animation-delay:-5s}
+.blob.b3{width:300px;height:300px;background:#7a45b8;top:30%;left:45%;opacity:.3;animation-delay:-9s}
+@keyframes float{0%,100%{transform:translate(0,0) scale(1)}33%{transform:translate(40px,-30px) scale(1.08)}66%{transform:translate(-30px,25px) scale(.95)}}
+.grid-bg{position:absolute;inset:0;z-index:-1;background-image:linear-gradient(rgba(255,255,255,.045) 1px,transparent 1px),linear-gradient(90deg,rgba(255,255,255,.045) 1px,transparent 1px);background-size:56px 56px;mask-image:radial-gradient(ellipse at 30% 40%,#000 20%,transparent 70%);-webkit-mask-image:radial-gradient(ellipse at 30% 40%,#000 20%,transparent 70%)}
+.hero-grid{display:grid;grid-template-columns:1.05fr .95fr;gap:56px;align-items:center}
+.eyebrow{display:inline-flex;align-items:center;gap:10px;padding:8px 16px 8px 10px;border-radius:999px;background:rgba(255,255,255,.07);border:1px solid rgba(255,255,255,.14);font-size:13px;font-weight:700;letter-spacing:.12em;text-transform:uppercase;color:var(--gold-2)}
+.eyebrow .dot{width:8px;height:8px;border-radius:50%;background:var(--gold-2)}
+.hero h1{font-size:clamp(40px,6.4vw,76px);margin:22px 0 18px}
+.hero h1 .line{display:block;overflow:hidden}
+.hero h1 .line>span{display:inline-block;transform:translateY(110%);animation:rise 1s var(--ease) forwards}
+.hero h1 .line:nth-child(2)>span{animation-delay:.12s}
+.hero h1 .line:nth-child(3)>span{animation-delay:.24s}
+@keyframes rise{to{transform:none}}
+.lead{font-size:clamp(17px,1.6vw,20px);color:rgba(255,255,255,.78);max-width:520px}
+.rotator{display:block;margin-top:14px;font-weight:600;color:rgba(255,255,255,.85);font-size:17px}
+.rotator>svg{display:inline-block;vertical-align:-4px;margin-right:6px}
+.rot-box{position:relative;display:inline-block;height:1.6em;min-width:96px;overflow:hidden;vertical-align:bottom;margin-left:4px}
+.rot-box span{position:absolute;left:0;top:0;padding:0 12px;border-radius:8px;background:rgba(227,167,59,.16);color:var(--gold-2);font-weight:800;letter-spacing:.06em;transform:translateY(100%);opacity:0;transition:transform .6s var(--ease),opacity .6s}
+.rot-box span.on{transform:none;opacity:1}
+.rot-box span.out{transform:translateY(-100%);opacity:0}
+.hero-actions{display:flex;flex-wrap:wrap;gap:14px;margin-top:34px}
+.hero-stats{display:flex;gap:28px;margin-top:42px;padding-top:28px;border-top:1px solid rgba(255,255,255,.12)}
+.hero-stats div b{display:block;font-family:"Fraunces",serif;font-size:30px;color:#fff;line-height:1}
+.hero-stats div>span{font-size:13px;color:rgba(255,255,255,.6);font-weight:600;letter-spacing:.04em}
+
+.hero-visual{position:relative;justify-self:center;width:min(480px,100%)}
+.arch{position:relative;aspect-ratio:4/5;border-radius:240px 240px 32px 32px;overflow:hidden;box-shadow:0 40px 80px -30px rgba(0,0,0,.6);border:6px solid rgba(255,255,255,.08)}
+.arch img{width:100%;height:100%;object-fit:cover;object-position:55% 0%;animation:kenburns 18s ease-in-out infinite alternate}
+@keyframes kenburns{from{transform:scale(1.04)}to{transform:scale(1.16) translate(-2%,-2%)}}
+.arch::after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,transparent 55%,rgba(43,23,72,.55))}
+.ring-deco{position:absolute;inset:-26px;border-radius:260px 260px 50px 50px;border:1.5px dashed rgba(246,205,118,.35);z-index:-1;animation:spinSlow 40s linear infinite}
+@keyframes spinSlow{to{transform:rotate(360deg)}}
+.fcard{position:absolute;display:flex;align-items:center;gap:12px;padding:12px 16px 12px 12px;border-radius:18px;background:rgba(255,255,255,.95);color:var(--ink);box-shadow:var(--shadow);animation:bob 6s ease-in-out infinite;backdrop-filter:blur(10px)}
+.fcard .ic{width:42px;height:42px;border-radius:12px;display:grid;place-items:center;flex:none}
+.fcard .ic svg{width:22px;height:22px}
+.fcard b{display:block;font-size:16px;line-height:1.1}
+.fcard small{font-size:12.5px;color:var(--muted);font-weight:600}
+.fc1{top:12%;left:-14%}
+.fc1 .ic{background:var(--gold-soft);color:#b37612}
+.fc2{top:46%;right:-12%;animation-delay:-2s}
+.fc2 .ic{background:#e3f6ec;color:#16884b}
+.fc3{bottom:8%;left:-8%;animation-delay:-4s}
+.fc3 .ic{background:#efe6fa;color:#6b3aa6}
+@keyframes bob{0%,100%{transform:translateY(0)}50%{transform:translateY(-12px)}}
+.scroll-cue{position:absolute;left:50%;bottom:26px;transform:translateX(-50%);display:flex;flex-direction:column;align-items:center;gap:8px;font-size:11px;letter-spacing:.24em;color:rgba(255,255,255,.5);font-weight:700}
+.mouse{width:24px;height:38px;border:2px solid rgba(255,255,255,.35);border-radius:14px;position:relative}
+.mouse::after{content:"";position:absolute;left:50%;top:7px;width:4px;height:8px;margin-left:-2px;border-radius:2px;background:var(--gold-2);animation:wheel 1.8s infinite}
+@keyframes wheel{0%{opacity:1;transform:none}100%{opacity:0;transform:translateY(12px)}}
+.hero-wave{position:absolute;left:0;right:0;bottom:-1px;line-height:0}
+.hero-wave svg{width:100%;height:70px}
+
+/* ---------- Marquee ---------- */
+.marquee{background:var(--cream);padding:26px 0;overflow:hidden;border-bottom:1px solid var(--line)}
+.track{display:flex;gap:56px;width:max-content;animation:scrollX 26s linear infinite}
+.marquee:hover .track{animation-play-state:paused}
+.track span{display:flex;align-items:center;gap:56px;font-family:"Fraunces",serif;font-size:clamp(26px,3.6vw,40px);font-weight:600;color:var(--navy);white-space:nowrap}
+.track span::after{content:"✦";color:var(--gold);font-size:.6em}
+.track span.o{color:transparent;-webkit-text-stroke:1.3px var(--navy)}
+@keyframes scrollX{to{transform:translateX(-50%)}}
+
+/* ---------- Sections ---------- */
+section{position:relative}
+.sec{padding:110px 0}
+.sec-head{display:flex;justify-content:space-between;align-items:end;gap:30px;margin-bottom:54px;flex-wrap:wrap}
+.kicker{display:inline-flex;align-items:center;gap:12px;font-size:13px;font-weight:800;letter-spacing:.2em;text-transform:uppercase;color:#a76f12}
+.kicker::before{content:"";width:28px;height:2px;background:var(--gold)}
+.sec h2{font-size:clamp(34px,4.6vw,56px);margin-top:14px;color:var(--navy)}
+.sec-head p{max-width:420px;color:var(--muted);font-size:17.5px}
+
+/* Reveal */
+.rv{opacity:0;transform:translateY(34px);transition:opacity .9s var(--ease),transform .9s var(--ease)}
+.rv.in{opacity:1;transform:none}
+.rv.d1{transition-delay:.08s}.rv.d2{transition-delay:.16s}.rv.d3{transition-delay:.24s}.rv.d4{transition-delay:.32s}
+
+/* ---------- Instituciones ---------- */
+.inst-grid{display:grid;grid-template-columns:repeat(5,1fr);gap:16px}
+.inst{position:relative;padding:28px 22px 26px;border-radius:var(--radius);background:var(--paper);border:1px solid var(--line);overflow:hidden;transition:transform .5s var(--ease),box-shadow .5s,border-color .5s;min-height:230px;display:flex;flex-direction:column}
+.inst::before{content:"";position:absolute;inset:auto -40% -60% -40%;height:70%;background:radial-gradient(closest-side,rgba(227,167,59,.35),transparent);opacity:0;transition:opacity .5s}
+.inst:hover{transform:translateY(-8px);box-shadow:var(--shadow);border-color:transparent}
+.inst:hover::before{opacity:1}
+.inst .num{font-size:12px;font-weight:800;letter-spacing:.14em;color:var(--muted)}
+.inst .ab{font-family:"Fraunces",serif;font-size:38px;font-weight:700;color:var(--navy);margin:auto 0 8px;letter-spacing:-.01em;transition:color .4s}
+.inst:hover .ab{color:#a76f12}
+.inst p{font-size:13.5px;color:var(--muted);line-height:1.45;font-weight:500}
+.inst .seal{position:absolute;top:20px;right:20px;width:38px;height:38px;border-radius:50%;display:grid;place-items:center;background:var(--gold-soft);color:#a76f12;transition:transform .6s var(--ease)}
+.inst:hover .seal{transform:rotate(360deg) scale(1.1)}
+.inst .seal svg{width:18px;height:18px}
+.dots{display:none;justify-content:center;gap:8px;margin-top:20px}
+.dots i{width:8px;height:8px;border-radius:99px;background:#d6cfbf;transition:width .4s var(--ease),background .4s}
+.dots i.on{width:26px;background:var(--gold)}
+
+/* ---------- Condiciones (bento) ---------- */
+.cond{background:var(--paper)}
+.bento{display:grid;grid-template-columns:repeat(12,1fr);grid-auto-rows:minmax(160px,auto);gap:18px}
+.tile{position:relative;border-radius:var(--radius-lg);padding:32px;overflow:hidden;background:var(--cream);border:1px solid var(--line)}
+.tile .lbl{font-size:12.5px;font-weight:800;letter-spacing:.18em;text-transform:uppercase;color:#a76f12}
+.tile h3{font-size:clamp(26px,2.6vw,34px);margin-top:10px;color:var(--navy)}
+.tile p{color:var(--muted);margin-top:10px}
+.t-plazo{grid-column:span 5;grid-row:span 2;background:var(--navy);color:#fff;border:0;display:flex;flex-direction:column;justify-content:space-between}
+.t-plazo h3{color:#fff}
+.t-plazo .lbl{color:var(--gold-2)}
+.ringwrap{position:relative;width:220px;height:220px;margin:26px auto 10px}
+.ringwrap svg{width:100%;height:100%;transform:rotate(-90deg)}
+.ringwrap .track-c{stroke:rgba(255,255,255,.1)}
+.ringwrap .bar-c{stroke:url(#gg);stroke-linecap:round;transition:stroke-dashoffset 2s var(--ease)}
+.ring-num{position:absolute;inset:0;display:grid;place-items:center;text-align:center}
+.ring-num b{font-family:"Fraunces",serif;font-size:76px;line-height:.9;display:block}
+.ring-num span{font-size:13px;letter-spacing:.24em;font-weight:800;color:var(--gold-2)}
+.t-plazo .glow{position:absolute;width:300px;height:300px;border-radius:50%;background:#5b2d91;filter:blur(80px);opacity:.6;top:-80px;right:-120px}
+.t-edad{grid-column:span 7;grid-row:span 2;padding:0;border:0;min-height:380px;color:#fff;display:flex;align-items:flex-end}
+.t-edad img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:center 30%;transition:transform 1.2s var(--ease)}
+.t-edad:hover img{transform:scale(1.06)}
+.t-edad::after{content:"";position:absolute;inset:0;background:linear-gradient(200deg,transparent 30%,rgba(43,23,72,.92))}
+.t-edad .in-c{position:relative;z-index:1;padding:34px}
+.t-edad h3{color:#fff;font-size:clamp(32px,3.6vw,48px)}
+.t-edad .lbl{color:var(--gold-2)}
+.t-edad p{color:rgba(255,255,255,.8)}
+.badge-inf{position:absolute;top:26px;right:26px;z-index:1;width:84px;height:84px;border-radius:50%;background:var(--gold);color:var(--navy);display:grid;place-items:center;font-family:"Fraunces",serif;font-size:46px;font-weight:700;box-shadow:0 10px 30px -10px rgba(0,0,0,.5);animation:pulseB 3s ease-in-out infinite}
+@keyframes pulseB{0%,100%{transform:scale(1)}50%{transform:scale(1.08)}}
+.t-costo{grid-column:span 5;display:flex;align-items:center;gap:24px;background:linear-gradient(145deg,#fff7e6,#fdecc6);border-color:#f2dfb3}
+.zero{font-family:"Fraunces",serif;font-size:84px;line-height:.9;color:var(--navy);font-weight:700;flex:none}
+.zero small{font-size:.42em;vertical-align:top;color:#a76f12}
+.t-monto{grid-column:span 7;display:flex;gap:22px;align-items:flex-start}
+.t-monto .ic{width:58px;height:58px;border-radius:18px;background:var(--navy);color:var(--gold-2);display:grid;place-items:center;flex:none}
+.t-monto .ic svg{width:28px;height:28px}
+
+/* ---------- Solicitud (app-like builder) ---------- */
+.builder{background:var(--navy);color:#fff;overflow:hidden;isolation:isolate}
+.builder .sec h2,.builder h2{color:#fff}
+.builder .kicker{color:var(--gold-2)}
+.builder .sec-head p{color:rgba(255,255,255,.7)}
+.b-grid{display:grid;grid-template-columns:1.15fr .85fr;gap:28px;align-items:start}
+.panel{background:rgba(255,255,255,.05);border:1px solid rgba(255,255,255,.1);border-radius:var(--radius-lg);padding:30px;backdrop-filter:blur(10px)}
+.step-t{display:flex;align-items:center;gap:12px;font-weight:800;font-size:15px;margin-bottom:14px;color:#fff}
+.step-t i{font-style:normal;width:28px;height:28px;border-radius:50%;display:grid;place-items:center;background:var(--gold);color:var(--navy);font-size:13px}
+.group{margin-bottom:30px}
+.group:last-child{margin-bottom:0}
+.chips{display:flex;flex-wrap:wrap;gap:10px}
+.chip{padding:12px 20px;border-radius:999px;border:1.5px solid rgba(255,255,255,.18);font-weight:700;font-size:15.5px;color:rgba(255,255,255,.85);transition:all .3s var(--ease);background:rgba(255,255,255,.03)}
+.chip:hover{border-color:var(--gold-2);color:#fff}
+.chip[aria-pressed="true"]{background:var(--gold);color:var(--navy);border-color:var(--gold)}
+.range-wrap{padding:6px 4px 0}
+.range-top{display:flex;justify-content:space-between;align-items:baseline;margin-bottom:12px}
+.range-top b{font-family:"Fraunces",serif;font-size:44px;line-height:1;color:var(--gold-2)}
+.range-top b small{font-size:16px;color:rgba(255,255,255,.7);font-family:"Manrope";font-weight:700;margin-left:6px}
+input[type=range]{-webkit-appearance:none;appearance:none;width:100%;height:10px;border-radius:99px;background:linear-gradient(90deg,var(--gold) var(--p,100%),rgba(255,255,255,.14) var(--p,100%));outline:none}
+input[type=range]::-webkit-slider-thumb{-webkit-appearance:none;width:32px;height:32px;border-radius:50%;background:#fff;border:6px solid var(--gold);box-shadow:0 6px 16px rgba(0,0,0,.4);cursor:grab}
+input[type=range]::-moz-range-thumb{width:22px;height:22px;border-radius:50%;background:#fff;border:6px solid var(--gold);cursor:grab}
+.ticks{display:flex;justify-content:space-between;margin-top:10px;font-size:12.5px;color:rgba(255,255,255,.5);font-weight:700}
+.modes{display:grid;grid-template-columns:repeat(3,1fr);gap:10px}
+.mode{padding:18px 10px;border-radius:18px;border:1.5px solid rgba(255,255,255,.14);text-align:center;font-weight:700;font-size:15px;transition:all .3s var(--ease);background:rgba(255,255,255,.03)}
+.mode svg{width:28px;height:28px;margin:0 auto 8px;display:block;color:var(--gold-2)}
+.mode[aria-pressed="true"]{background:#fff;color:var(--navy);border-color:#fff}
+.mode[aria-pressed="true"] svg{color:#a76f12}
+.ticket{position:sticky;top:100px;background:#fff;color:var(--ink);border-radius:var(--radius-lg);padding:30px;box-shadow:0 40px 80px -30px rgba(0,0,0,.6)}
+.ticket::before,.ticket::after{content:"";position:absolute;top:58%;width:28px;height:28px;border-radius:50%;background:var(--navy)}
+.ticket::before{left:-14px}.ticket::after{right:-14px}
+.ticket h3{font-size:26px;color:var(--navy)}
+.ticket .sub{color:var(--muted);font-size:14.5px;margin-top:4px}
+.rows{margin:22px 0;display:grid;gap:12px}
+.row{display:flex;justify-content:space-between;gap:12px;font-size:15.5px;padding-bottom:12px;border-bottom:1px solid var(--line)}
+.row span{color:var(--muted);font-weight:600}
+.row b{text-align:right;transition:color .3s}
+.row b.flash{animation:flash .6s}
+@keyframes flash{0%{color:#c98a26;transform:scale(1.06)}100%{color:inherit;transform:none}}
+.dash{border-top:2px dashed var(--line);margin:22px -30px;}
+.tags{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:20px}
+.tags span{font-size:12.5px;font-weight:700;padding:6px 12px;border-radius:99px;background:var(--gold-soft);color:#8a5a0c}
+.ticket .btn{width:100%}
+.ticket .note{font-size:12.5px;color:var(--muted);text-align:center;margin-top:12px}
+
+/* ---------- Requisitos ---------- */
+.req-grid{display:grid;grid-template-columns:.9fr 1.1fr;gap:56px;align-items:center}
+.req-photo{position:relative;border-radius:var(--radius-lg);overflow:hidden;aspect-ratio:4/4.4;box-shadow:var(--shadow)}
+.req-photo img{width:100%;height:100%;object-fit:cover;object-position:55% 30%}
+.prog-card{position:absolute;left:20px;right:20px;bottom:20px;display:flex;align-items:center;gap:16px;padding:16px 18px;background:rgba(255,255,255,.94);border-radius:20px;backdrop-filter:blur(8px);box-shadow:var(--shadow-sm)}
+.mini-ring{width:62px;height:62px;flex:none;position:relative}
+.mini-ring svg{width:100%;height:100%;transform:rotate(-90deg)}
+.mini-ring circle{fill:none;stroke-width:7}
+.mini-ring .t{stroke:#eee6d4}
+.mini-ring .b{stroke:var(--gold);stroke-linecap:round;transition:stroke-dashoffset .8s var(--ease)}
+.mini-ring b{position:absolute;inset:0;display:grid;place-items:center;font-size:15px;color:var(--navy)}
+.prog-card strong{display:block;font-size:16px;color:var(--navy)}
+.prog-card small{color:var(--muted);font-weight:600;font-size:13.5px}
+.checklist{display:grid;gap:14px;margin-top:8px}
+.check{display:flex;align-items:center;gap:18px;width:100%;text-align:left;padding:22px 24px;border-radius:22px;background:var(--paper);border:1.5px solid var(--line);transition:all .4s var(--ease)}
+.check:hover{border-color:var(--gold);transform:translateX(6px)}
+.check .n{font-family:"Fraunces",serif;font-size:30px;color:#d8cfbd;width:44px;flex:none;transition:color .3s}
+.check h3{font-family:"Manrope",sans-serif;font-size:18.5px;font-weight:700;letter-spacing:0;color:var(--navy);line-height:1.3}
+.check p{font-size:14px;color:var(--muted);margin-top:2px}
+.check .box{margin-left:auto;width:34px;height:34px;border-radius:11px;border:2px solid #d8cfbd;display:grid;place-items:center;flex:none;transition:all .4s var(--ease)}
+.check .box svg{width:18px;height:18px;color:#fff;transform:scale(0);transition:transform .4s var(--ease)}
+.check[aria-pressed="true"]{background:#f3fbf6;border-color:#9fdcb8}
+.check[aria-pressed="true"] .n{color:#16884b}
+.check[aria-pressed="true"] .box{background:#16a35a;border-color:#16a35a}
+.check[aria-pressed="true"] .box svg{transform:scale(1)}
+.hint{display:flex;align-items:center;gap:10px;margin-top:20px;font-size:14.5px;color:var(--muted);font-weight:600}
+.hint svg{width:20px;height:20px;color:#a76f12;flex:none}
+
+/* ---------- Modalidades ---------- */
+.mod{background:var(--paper)}
+.mod-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:22px}
+.mcard{position:relative;border-radius:var(--radius-lg);overflow:hidden;min-height:440px;display:flex;align-items:flex-end;color:#fff;box-shadow:var(--shadow-sm);transform-style:preserve-3d;transition:transform .5s var(--ease),box-shadow .5s}
+.mcard img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:center 25%;transition:transform 1.2s var(--ease)}
+.mcard:hover img{transform:scale(1.08)}
+.mcard::after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(43,23,72,0) 35%,rgba(43,23,72,.95))}
+.mcard .c{position:relative;z-index:1;padding:28px;width:100%}
+.mcard .n{position:absolute;top:22px;left:22px;z-index:1;font-size:13px;font-weight:800;letter-spacing:.14em;padding:7px 12px;border-radius:99px;background:rgba(255,255,255,.18);backdrop-filter:blur(8px)}
+.mcard .ico{width:52px;height:52px;border-radius:16px;background:var(--gold);color:var(--navy);display:grid;place-items:center;margin-bottom:16px;transition:transform .5s var(--ease)}
+.mcard:hover .ico{transform:rotate(-8deg) scale(1.08)}
+.mcard .ico svg{width:26px;height:26px}
+.mcard h3{font-size:34px}
+.mcard p{color:rgba(255,255,255,.78);margin-top:6px;font-size:15.5px}
+.mcard .go{display:inline-flex;align-items:center;gap:8px;margin-top:16px;font-weight:700;color:var(--gold-2);font-size:15px}
+.mcard .go svg{width:18px;height:18px;transition:transform .3s}
+.mcard:hover .go svg{transform:translateX(5px)}
+
+/* ---------- Proceso ---------- */
+.steps{position:relative;display:grid;grid-template-columns:repeat(4,1fr);gap:24px}
+.steps .line{position:absolute;top:34px;left:12%;right:12%;height:3px;background:#e7dfcf;border-radius:3px;overflow:hidden}
+.steps .line i{display:block;height:100%;width:0;background:linear-gradient(90deg,var(--gold),var(--gold-2));transition:width 2.4s var(--ease)}
+.steps.in .line i{width:100%}
+.step{position:relative;text-align:center;padding:0 8px}
+.step .bub{width:70px;height:70px;margin:0 auto 22px;border-radius:50%;background:var(--paper);border:3px solid #e7dfcf;display:grid;place-items:center;color:var(--navy);transition:all .6s var(--ease);position:relative;z-index:1}
+.step .bub svg{width:28px;height:28px}
+.steps.in .step .bub{border-color:var(--gold);background:var(--navy);color:var(--gold-2);box-shadow:0 0 0 8px rgba(227,167,59,.14)}
+.steps.in .step:nth-child(3) .bub{transition-delay:.5s}
+.steps.in .step:nth-child(4) .bub{transition-delay:1.1s}
+.steps.in .step:nth-child(5) .bub{transition-delay:1.7s}
+.step h3{font-family:"Manrope";font-weight:800;letter-spacing:0;font-size:18.5px;color:var(--navy)}
+.step p{font-size:14.5px;color:var(--muted);margin-top:6px}
+
+/* ---------- FAQ ---------- */
+.faq{background:var(--paper)}
+.faq-grid{display:grid;grid-template-columns:.8fr 1.2fr;gap:56px;align-items:start}
+.faq-side{position:sticky;top:110px}
+.faq-side p{color:var(--muted);margin:16px 0 26px}
+.acc{display:grid;gap:12px}
+.qa{border-radius:20px;background:var(--cream);border:1px solid var(--line);overflow:hidden;transition:background .3s,box-shadow .3s}
+.qa.open{background:#fff;box-shadow:var(--shadow-sm)}
+.qa button{width:100%;display:flex;align-items:center;justify-content:space-between;gap:16px;padding:22px 24px;text-align:left;font-weight:700;font-size:17.5px;color:var(--navy)}
+.qa .pm{width:34px;height:34px;border-radius:50%;background:var(--navy);flex:none;position:relative;transition:transform .4s var(--ease),background .3s}
+.qa .pm::before,.qa .pm::after{content:"";position:absolute;left:50%;top:50%;width:14px;height:2px;margin:-1px 0 0 -7px;background:#fff;border-radius:2px}
+.qa .pm::after{transform:rotate(90deg);transition:transform .4s var(--ease)}
+.qa.open .pm{background:var(--gold)}
+.qa.open .pm::after{transform:rotate(0)}
+.qa .ans{display:grid;grid-template-rows:0fr;transition:grid-template-rows .5s var(--ease)}
+.qa.open .ans{grid-template-rows:1fr}
+.qa .ans>div{overflow:hidden}
+.qa .ans p{padding:0 24px 22px;color:var(--muted)}
+
+/* ---------- CTA ---------- */
+.cta{padding:40px 0 110px;background:var(--paper)}
+.cta-box{position:relative;border-radius:40px;overflow:hidden;padding:80px 60px;color:#fff;isolation:isolate;display:grid;grid-template-columns:1.2fr .8fr;gap:30px;align-items:center}
+.cta-box>img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:75% 30%;z-index:-2}
+.cta-box::before{content:"";position:absolute;inset:0;z-index:-1;background:linear-gradient(100deg,rgba(43,23,72,.97) 35%,rgba(43,23,72,.55))}
+.cta-box h2{font-size:clamp(34px,4.6vw,58px)}
+.cta-box p{color:rgba(255,255,255,.78);margin-top:14px;max-width:480px;font-size:18px}
+.cta-actions{display:flex;flex-direction:column;gap:14px;align-items:stretch}
+.cta-chips{display:flex;flex-wrap:wrap;gap:10px;margin-top:26px}
+.cta-chips span{display:flex;align-items:center;gap:8px;padding:9px 14px;border-radius:99px;background:rgba(255,255,255,.1);border:1px solid rgba(255,255,255,.16);font-size:14px;font-weight:700}
+.cta-chips svg{width:16px;height:16px;color:var(--gold-2)}
+
+/* ---------- Footer ---------- */
+footer{background:var(--navy);color:rgba(255,255,255,.72);padding:80px 0 30px;position:relative;overflow:hidden}
+footer::before{content:"";position:absolute;width:500px;height:500px;border-radius:50%;background:#5b2d91;filter:blur(120px);opacity:.35;top:-250px;right:-150px}
+.f-grid{position:relative;display:grid;grid-template-columns:1.4fr 1fr 1fr 1.1fr;gap:40px}
+.f-grid h4{color:#fff;font-size:14px;letter-spacing:.16em;text-transform:uppercase;margin-bottom:18px}
+.f-grid ul{list-style:none;display:grid;gap:10px}
+.f-grid a:hover{color:var(--gold-2)}
+.f-about p{margin-top:18px;max-width:320px;font-size:15.5px}
+.socials{display:flex;gap:12px;margin-top:22px}
+.socials a{width:46px;height:46px;border-radius:14px;display:grid;place-items:center;background:rgba(255,255,255,.07);border:1px solid rgba(255,255,255,.12);color:#fff;transition:all .35s var(--ease)}
+.socials a svg{width:20px;height:20px}
+.socials a:hover{transform:translateY(-4px)}
+.socials .fb:hover{background:#1877F2;border-color:#1877F2}
+.socials .ig:hover{background:linear-gradient(45deg,#f9ce34,#ee2a7b,#6228d7);border-color:transparent}
+.socials .wa:hover{background:var(--gold);border-color:var(--gold);color:var(--navy)}
+.inst-tags{display:flex;flex-wrap:wrap;gap:8px}
+.inst-tags span{padding:7px 12px;border-radius:10px;background:rgba(255,255,255,.06);border:1px solid rgba(255,255,255,.1);font-size:13px;font-weight:700;color:#fff}
+.f-bottom{position:relative;display:flex;justify-content:space-between;align-items:center;gap:20px;flex-wrap:wrap;margin-top:60px;padding-top:26px;border-top:1px solid rgba(255,255,255,.1);font-size:14px}
+.credit{display:inline-flex;align-items:center;gap:8px}
+.credit a{color:var(--gold-2);font-weight:700}
+.credit a:hover{text-decoration:underline}
+.to-top{display:inline-flex;align-items:center;gap:8px;font-weight:700;color:#fff}
+.to-top svg{width:16px;height:16px}
+
+/* ---------- WhatsApp float ---------- */
+.wa-float{position:fixed;right:22px;bottom:22px;z-index:110;display:flex;align-items:center;gap:12px}
+.wa-btn{width:64px;height:64px;border-radius:50%;background:var(--gold);display:grid;place-items:center;color:var(--navy);border:3px solid var(--navy);position:relative;transition:transform .3s var(--ease),background .3s}
+.wa-btn:hover{transform:scale(1.06);background:var(--gold-2)}
+.wa-btn svg{width:34px;height:34px}
+.wa-btn::before{content:"";position:absolute;inset:-3px;border-radius:50%;border:2px solid var(--gold);animation:waRing 2.6s infinite}
+@keyframes waRing{0%{transform:scale(1);opacity:.7}100%{transform:scale(1.45);opacity:0}}
+.wa-badge{position:absolute;top:-4px;right:-4px;width:20px;height:20px;border-radius:50%;background:var(--navy);color:var(--gold-2);font-size:11px;font-weight:800;display:grid;place-items:center;border:2px solid #fff}
+.wa-tip{background:#fff;color:var(--ink);padding:12px 16px;border-radius:16px 16px 4px 16px;box-shadow:var(--shadow);font-size:14.5px;font-weight:600;max-width:220px;opacity:0;transform:translateX(16px) scale(.95);transition:all .5s var(--ease);pointer-events:none;position:relative}
+.wa-tip b{display:block;color:var(--navy)}
+.wa-tip.show{opacity:1;transform:none;pointer-events:auto}
+.wa-tip .x{position:absolute;top:-8px;left:-8px;width:22px;height:22px;border-radius:50%;background:var(--navy);color:#fff;font-size:13px;line-height:22px;text-align:center}
+
+/* ---------- Mobile tab bar ---------- */
+.tabbar{display:none}
+
+
+/* Encuadre de cada foto */
+img[src^="img/pareja-jubilados.webp"]{object-position:50% 35%!important}
+img[src^="img/sin-limite-edad.webp"]{object-position:45% 35%!important}
+img[src^="img/requisitos.webp"]{object-position:48% 30%!important}
+img[src^="img/tramite-en-linea.webp"]{object-position:38% 40%!important}
+img[src^="img/tramite-en-oficina.webp"]{object-position:62% 40%!important}
+img[src^="img/tramite-en-domicilio.webp"]{object-position:38% 40%!important}
+img[src^="img/contacto.webp"]{object-position:50% 30%!important}
+
+/* ---------- Responsive ---------- */
+@media (max-width:1080px){
+  .nav{display:none}
+  .inst-grid{grid-template-columns:repeat(3,1fr)}
+  .t-plazo,.t-edad,.t-costo,.t-monto{grid-column:span 12}
+  .t-plazo{grid-row:auto}
+  .t-edad{display:block;min-height:0;background:var(--navy)}
+  .t-edad img{position:relative;height:340px;object-position:35% 30%}
+  .t-edad::after{inset:0 0 auto 0;height:340px;background:linear-gradient(180deg,transparent 60%,var(--navy))}
+  .t-edad .in-c{padding:6px 26px 30px}
+  .b-grid,.req-grid,.faq-grid{grid-template-columns:1fr}
+  .ticket,.faq-side{position:relative;top:0}
+  .f-grid{grid-template-columns:1fr 1fr}
+}
+@media (max-width:860px){
+  body{font-size:16.5px;padding-bottom:calc(var(--tabbar) + env(safe-area-inset-bottom))}
+  .hero{padding:110px 0 90px}
+  .hero-grid{grid-template-columns:1fr;gap:56px}
+  .hero-visual{width:min(360px,82%)}
+  .fc1{left:-9%;top:8%}
+  .fc2{right:-9%}
+  .fc3{left:-7%}
+  .scroll-cue{display:none}
+  .hero-stats{gap:18px;justify-content:space-between}
+  .hero-stats div b{font-size:24px}
+  .head-cta{display:none}
+  .sec{padding:80px 0}
+  .sec-head{margin-bottom:36px}
+  .inst-grid{display:flex;overflow-x:auto;scroll-snap-type:x mandatory;gap:14px;padding:6px 20px 10px;margin:0 -20px;scrollbar-width:none}
+  .inst-grid::-webkit-scrollbar{display:none}
+  .inst{flex:0 0 72%;scroll-snap-align:center;min-height:210px}
+  .dots{display:flex}
+  .mod-grid{display:flex;overflow-x:auto;scroll-snap-type:x mandatory;gap:14px;padding:6px 20px 10px;margin:0 -20px;scrollbar-width:none}
+  .mod-grid::-webkit-scrollbar{display:none}
+  .mcard{flex:0 0 82%;scroll-snap-align:center;min-height:400px}
+  .steps{grid-template-columns:1fr;gap:0;padding-left:4px}
+  .steps .line{top:30px;bottom:30px;left:34px;right:auto;width:3px;height:auto}
+  .steps .line i{width:100%;height:0;transition:height 2.4s var(--ease)}
+  .steps.in .line i{height:100%;width:100%}
+  .step{display:flex;gap:20px;text-align:left;padding:0 0 30px}
+  .step .bub{margin:0;flex:none;width:62px;height:62px}
+  .step>div{padding-top:8px}
+  .modes{grid-template-columns:repeat(3,1fr)}
+  .panel,.ticket{padding:24px}
+  .dash{margin:20px -24px}
+  .cta-box{grid-template-columns:1fr;padding:56px 26px;border-radius:30px}
+  .cta-box::before{background:linear-gradient(180deg,rgba(43,23,72,.8),rgba(43,23,72,.97) 55%)}
+  .f-grid{grid-template-columns:1fr;gap:34px}
+  .f-bottom{flex-direction:column;text-align:center;margin-top:40px}
+
+  .wa-float{display:none}
+
+  .tabbar{display:flex;position:fixed;left:12px;right:12px;bottom:calc(10px + env(safe-area-inset-bottom));z-index:105;height:64px;border-radius:24px;background:rgba(43,23,72,.9);backdrop-filter:blur(20px) saturate(1.5);-webkit-backdrop-filter:blur(20px) saturate(1.5);border:1px solid rgba(255,255,255,.1);box-shadow:0 20px 40px -12px rgba(0,0,0,.55);padding:0 6px;justify-content:space-around;align-items:center;transform:translateY(140%);animation:tabIn .8s .6s var(--ease) forwards}
+  @keyframes tabIn{to{transform:none}}
+  .tabbar a{flex:1;display:flex;flex-direction:column;align-items:center;gap:3px;font-size:10.5px;font-weight:700;color:rgba(255,255,255,.55);padding:6px 0;position:relative;transition:color .3s}
+  .tabbar a svg{width:23px;height:23px;transition:transform .35s var(--ease)}
+  .tabbar a.active{color:var(--gold-2)}
+  .tabbar a.active svg{transform:translateY(-2px) scale(1.1)}
+  .tabbar a.active::after{content:"";position:absolute;bottom:-1px;width:5px;height:5px;border-radius:50%;background:var(--gold-2)}
+  .tabbar .center{flex:none;width:62px;height:62px;margin-top:-30px;border-radius:20px;background:var(--gold);color:var(--navy)!important;justify-content:center;box-shadow:0 0 0 5px var(--navy);font-size:10px;gap:1px}
+  .tabbar .center::after{display:none}
+  .tabbar .tab-wa{color:var(--gold-2)}
+  .tabbar .tab-wa svg{width:24px;height:24px}
+  .tabbar .center svg{width:24px;height:24px}
+}
+@media (max-width:420px){
+  .wrap{width:calc(100% - 32px)}
+  .hero h1{font-size:40px}
+  .fcard{padding:9px 12px 9px 9px;gap:9px;border-radius:14px}
+  .fcard .ic{width:34px;height:34px;border-radius:10px}
+  .fcard b{font-size:14px}
+  .fcard small{font-size:11px}
+  .chip{padding:11px 16px;font-size:15px}
+  .mode{padding:14px 6px;font-size:13.5px}
+  .zero{font-size:66px}
+  .t-costo{gap:16px}
+  .tile{padding:26px}
+  .t-edad{padding:0}
+  .check{padding:18px}
+  .inst-grid,.mod-grid{margin:0 -16px;padding-inline:16px}
+}
+@media (prefers-reduced-motion:reduce){
+  *,*::before,*::after{animation-duration:.01ms!important;animation-iteration-count:1!important;transition-duration:.01ms!important;scroll-behavior:auto!important}
+  .rv{opacity:1;transform:none}
+}
+</style>
+</head>
+<body>
+<a class="skip" href="#contenido">Saltar al contenido</a>
+<div class="progress" id="progress"></div>
+
+<!-- ============ HEADER ============ -->
+<header class="header" id="header">
+  <div class="wrap bar">
+    <a href="#inicio" class="brand" aria-label="Préstamos Jubilados y Pensionados, inicio">
+      <span class="brand-mark" aria-hidden="true">
+        <svg viewBox="0 0 48 48" fill="none" stroke="#2b1748"><path d="M12 36V12h14a9 9 0 0 1 0 18H12" stroke-width="4.3" stroke-linecap="round" stroke-linejoin="round"/><path d="M12 37h23" stroke-width="4.3" stroke-linecap="round"/></svg>
+      </span>
+      <span class="brand-txt"><b>PRÉSTAMOS</b><span>Jubilados y Pensionados</span></span>
+    </a>
+    <nav class="nav" id="nav" aria-label="Principal">
+      <span class="pill" aria-hidden="true"></span>
+      <a href="#inicio">Inicio</a>
+      <a href="#instituciones">Instituciones</a>
+      <a href="#condiciones">Condiciones</a>
+      <a href="#requisitos">Requisitos</a>
+      <a href="#modalidades">Modalidades</a>
+      <a href="#preguntas">Preguntas</a>
+    </nav>
+    <div class="head-cta">
+      <a class="btn btn-gold btn-sm" href="#solicitud">Solicitar ahora</a>
+      <a class="icon-btn" data-wa data-msg="Hola, quiero información sobre los préstamos para jubilados y pensionados." aria-label="Escríbenos por WhatsApp" target="_blank" rel="noopener">
+        <svg viewBox="0 0 24 24" fill="currentColor"><path d="M17.5 14.4c-.3-.1-1.7-.8-2-.9-.3-.1-.5-.1-.7.1-.2.3-.8.9-.9 1.1-.2.2-.3.2-.6.1-.3-.1-1.2-.5-2.3-1.4-.9-.8-1.4-1.7-1.6-2-.2-.3 0-.5.1-.6l.4-.5c.1-.2.2-.3.3-.5.1-.2 0-.4 0-.5l-.9-2.2c-.2-.6-.5-.5-.7-.5h-.6c-.2 0-.5.1-.8.4-.3.3-1 1-1 2.5s1.1 2.9 1.2 3.1c.1.2 2.1 3.2 5.1 4.5.7.3 1.3.5 1.7.6.7.2 1.4.2 1.9.1.6-.1 1.7-.7 2-1.4.2-.7.2-1.3.2-1.4-.1-.2-.3-.3-.6-.4zM12 21.5c-1.7 0-3.4-.5-4.9-1.3l-.4-.2-3.6.9 1-3.5-.2-.4C3 15.5 2.5 13.8 2.5 12 2.5 6.8 6.8 2.5 12 2.5S21.5 6.8 21.5 12 17.2 21.5 12 21.5zM12 .5C5.7.5.5 5.7.5 12c0 2 .5 4 1.5 5.8L.5 23.5l5.9-1.5c1.7.9 3.6 1.4 5.6 1.4 6.3 0 11.5-5.2 11.5-11.5S18.3.5 12 .5z"/></svg>
+      </a>
+    </div>
+  </div>
+</header>
+
+<main id="contenido">
+<!-- ============ HERO ============ -->
+<section class="hero" id="inicio">
+  <div class="blob b1"></div><div class="blob b2"></div><div class="blob b3"></div>
+  <div class="grid-bg"></div>
+  <div class="wrap hero-grid">
+    <div>
+      <span class="eyebrow"><span class="dot"></span>Préstamos con descuento a nómina</span>
+      <h1>
+        <span class="line"><span>Préstamos para</span></span>
+        <span class="line"><span><em>jubilados</em> y</span></span>
+        <span class="line"><span>pensionados.</span></span>
+      </h1>
+      <p class="lead">Con descuento directo a nómina. Información clara desde el inicio y un trámite a tu medida.</p>
+      <div class="rotator" aria-live="polite">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#f6cd76" stroke-width="2.2" stroke-linecap="round"><path d="M3 21h18M5 21V10l7-5 7 5v11M9 21v-6h6v6"/></svg>
+        Para jubilados y pensionados de
+        <span class="rot-box" id="rot"><span class="on">IMSS</span><span>ISSSTE</span><span>CFE</span><span>PEMEX</span><span>IPEJAL</span></span>
+      </div>
+      <div class="hero-actions">
+        <a class="btn btn-gold" href="#solicitud">
+          Solicitar mi préstamo
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+        </a>
+        <a class="btn btn-ghost" href="#requisitos">Conocer requisitos</a>
+      </div>
+      <div class="hero-stats">
+        <div><b data-count="48">0</b><span>MESES HASTA</span></div>
+        <div><b>∞</b><span>SIN LÍMITE DE EDAD</span></div>
+        <div><b>$<span data-count="0">0</span></b><span>COSTO DE TRÁMITE</span></div>
+      </div>
+    </div>
+
+    <div class="hero-visual" id="heroVisual">
+      <div class="ring-deco"></div>
+      <div class="arch">
+        <img src="img/pareja-jubilados64d4.webp?v=20261116b" alt="Pareja de jubilados riendo abrazados en su sala" fetchpriority="high">
+      </div>
+      <div class="fcard fc1">
+        <span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><rect x="3" y="4" width="18" height="17" rx="3"/><path d="M3 9h18M8 2v4M16 2v4"/></svg></span>
+        <span><b>Hasta 48 meses</b><small>Plazo a elegir</small></span>
+      </div>
+      <div class="fcard fc2">
+        <span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12.5l4.5 4.5L19 7.5"/></svg></span>
+        <span><b>Sin límite de edad</b><small>Jubilados y pensionados</small></span>
+      </div>
+      <div class="fcard fc3">
+        <span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><path d="M12 2l8 3v6c0 5-3.4 9.3-8 11-4.6-1.7-8-6-8-11V5l8-3z"/></svg></span>
+        <span><b>Trámites sin costo</b><small>Descuento a nómina</small></span>
+      </div>
+    </div>
+  </div>
+  <a href="#instituciones" class="scroll-cue" aria-label="Desliza para explorar"><span class="mouse"></span>DESLIZA</a>
+  <div class="hero-wave" aria-hidden="true"><svg viewBox="0 0 1440 70" preserveAspectRatio="none"><path d="M0 70V30C240 0 480 0 720 25s480 45 720 5v40z" fill="#fbf7ef"/></svg></div>
+</section>
+
+<!-- ============ MARQUEE ============ -->
+<div class="marquee" aria-hidden="true">
+  <div class="track">
+    <span>IMSS</span><span class="o">ISSSTE</span><span>CFE</span><span class="o">PEMEX</span><span>IPEJAL</span><span class="o">Sin límite de edad</span><span>Hasta 48 meses</span><span class="o">Trámites sin costo</span>
+    <span>IMSS</span><span class="o">ISSSTE</span><span>CFE</span><span class="o">PEMEX</span><span>IPEJAL</span><span class="o">Sin límite de edad</span><span>Hasta 48 meses</span><span class="o">Trámites sin costo</span>
+  </div>
+</div>
+
+<!-- ============ INSTITUCIONES ============ -->
+<section class="sec" id="instituciones">
+  <div class="wrap">
+    <div class="sec-head">
+      <div class="rv">
+        <span class="kicker">01 / Instituciones</span>
+        <h2>Instituciones <em>que atendemos.</em></h2>
+      </div>
+      <p class="rv d1">Préstamos para jubilados y pensionados con descuento directo a nómina.</p>
+    </div>
+    <div class="inst-grid" id="instGrid">
+      <article class="inst rv"><span class="num">01 / 05</span><span class="seal"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12.5l4.5 4.5L19 7.5"/></svg></span><h3 class="ab">IMSS</h3><p>Instituto Mexicano del Seguro Social</p></article>
+      <article class="inst rv d1"><span class="num">02 / 05</span><span class="seal"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12.5l4.5 4.5L19 7.5"/></svg></span><h3 class="ab">ISSSTE</h3><p>Instituto de Seguridad y Servicios Sociales de los Trabajadores del Estado</p></article>
+      <article class="inst rv d2"><span class="num">03 / 05</span><span class="seal"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12.5l4.5 4.5L19 7.5"/></svg></span><h3 class="ab">CFE</h3><p>Comisión Federal de Electricidad</p></article>
+      <article class="inst rv d3"><span class="num">04 / 05</span><span class="seal"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12.5l4.5 4.5L19 7.5"/></svg></span><h3 class="ab">PEMEX</h3><p>Petróleos Mexicanos</p></article>
+      <article class="inst rv d4"><span class="num">05 / 05</span><span class="seal"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12.5l4.5 4.5L19 7.5"/></svg></span><h3 class="ab">IPEJAL</h3><p>Instituto de Pensiones del Estado de Jalisco</p></article>
+    </div>
+    <div class="dots" id="instDots" aria-hidden="true"><i class="on"></i><i></i><i></i><i></i><i></i></div>
+  </div>
+</section>
+
+<!-- ============ CONDICIONES ============ -->
+<section class="sec cond" id="condiciones">
+  <div class="wrap">
+    <div class="sec-head">
+      <div class="rv">
+        <span class="kicker">02 / Condiciones</span>
+        <h2>Información clara, <em>desde el inicio.</em></h2>
+      </div>
+      <p class="rv d1">Condiciones del préstamo con descuento directo a nómina.</p>
+    </div>
+    <div class="bento">
+      <div class="tile t-plazo rv" id="plazoTile">
+        <span class="glow"></span>
+        <div style="position:relative">
+          <span class="lbl">Plazo a elegir</span>
+          <h3>Hasta 48 meses</h3>
+        </div>
+        <div class="ringwrap">
+          <svg viewBox="0 0 220 220">
+            <defs><linearGradient id="gg" x1="0" x2="1"><stop offset="0" stop-color="#e3a73b"/><stop offset="1" stop-color="#f6cd76"/></linearGradient></defs>
+            <circle class="track-c" cx="110" cy="110" r="94" fill="none" stroke-width="16"/>
+            <circle class="bar-c" id="bigRing" cx="110" cy="110" r="94" fill="none" stroke-width="16" stroke-dasharray="590.6" stroke-dashoffset="590.6"/>
+          </svg>
+          <div class="ring-num"><div><b data-count="48">0</b><span>MESES</span></div></div>
+        </div>
+        <p style="color:rgba(255,255,255,.7);position:relative;text-align:center">Tú eliges el plazo que mejor se acomode a tu pensión.</p>
+      </div>
+
+      <div class="tile t-edad rv d1">
+        <img src="img/sin-limite-edad64d4.webp?v=20261116b" alt="Pareja de adultos mayores remando en kayak en un lago" loading="lazy">
+        <span class="badge-inf" aria-hidden="true">∞</span>
+        <div class="in-c">
+          <span class="lbl">Edad</span>
+          <h3>Sin límite de edad</h3>
+          <p>Tu experiencia no tiene fecha de caducidad. Atendemos a jubilados y pensionados de cualquier edad.</p>
+        </div>
+      </div>
+
+      <div class="tile t-costo rv">
+        <div class="zero">$<span data-count="0">0</span><small>MXN</small></div>
+        <div>
+          <span class="lbl">Trámites</span>
+          <h3>Sin costo</h3>
+          <p>No pagas por realizar tu trámite.</p>
+        </div>
+      </div>
+
+      <div class="tile t-monto rv d1">
+        <span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 21h18M5 21V10l7-5 7 5v11"/><path d="M12 11v6M10 13.2c0-.9.9-1.4 2-1.4s2 .5 2 1.3c0 1.9-4 1-4 2.9 0 .8.9 1.3 2 1.3s2-.5 2-1.4"/></svg></span>
+        <div>
+          <span class="lbl">Monto del préstamo</span>
+          <h3>¿Cómo se define el monto?</h3>
+          <p>El monto lo define la empresa que deposita la nómina, según su alcance.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ SOLICITUD (builder) ============ -->
+<section class="builder" id="solicitud">
+  <div class="blob b1" style="top:-200px;left:auto;right:-200px"></div>
+  <div class="grid-bg"></div>
+  <div class="wrap sec">
+    <div class="sec-head">
+      <div class="rv">
+        <span class="kicker">Solicitud rápida</span>
+        <h2>Arma tu solicitud <em>en 3 toques.</em></h2>
+      </div>
+      <p class="rv d1">Elige tu institución, el plazo y cómo quieres hacer el trámite. Te mandamos directo a WhatsApp con tu información lista.</p>
+    </div>
+
+    <div class="b-grid">
+      <div class="panel rv">
+        <div class="group">
+          <div class="step-t"><i>1</i>¿De qué institución recibes tu pago?</div>
+          <div class="chips" data-group="inst">
+            <button class="chip" aria-pressed="true" data-v="IMSS">IMSS</button>
+            <button class="chip" aria-pressed="false" data-v="ISSSTE">ISSSTE</button>
+            <button class="chip" aria-pressed="false" data-v="CFE">CFE</button>
+            <button class="chip" aria-pressed="false" data-v="PEMEX">PEMEX</button>
+            <button class="chip" aria-pressed="false" data-v="IPEJAL">IPEJAL</button>
+          </div>
+          <div class="chips" data-group="tipo" style="margin-top:12px">
+            <button class="chip" aria-pressed="true" data-v="Jubilado(a)">Soy jubilado(a)</button>
+            <button class="chip" aria-pressed="false" data-v="Pensionado(a)">Soy pensionado(a)</button>
+          </div>
+        </div>
+        <div class="group">
+          <div class="step-t"><i>2</i>¿A qué plazo te gustaría?</div>
+          <div class="range-wrap">
+            <div class="range-top"><b id="plazoVal">48<small>meses</small></b><span style="color:rgba(255,255,255,.6);font-size:14px;font-weight:700">Hasta 48 meses</span></div>
+            <input type="range" id="plazo" min="6" max="48" step="6" value="48" aria-label="Plazo en meses">
+            <div class="ticks"><span>6</span><span>12</span><span>18</span><span>24</span><span>30</span><span>36</span><span>42</span><span>48</span></div>
+          </div>
+        </div>
+        <div class="group">
+          <div class="step-t"><i>3</i>¿Cómo quieres realizar el trámite?</div>
+          <div class="modes" data-group="modo">
+            <button class="mode" aria-pressed="true" data-v="En línea"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><rect x="6" y="2" width="12" height="20" rx="3"/><path d="M11 18h2"/></svg>En línea</button>
+            <button class="mode" aria-pressed="false" data-v="En oficina"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 21h18M6 21V5a2 2 0 012-2h8a2 2 0 012 2v16M10 7h4M10 11h4M10 15h4"/></svg>En oficina</button>
+            <button class="mode" aria-pressed="false" data-v="En domicilio"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 11l9-7 9 7v9a1 1 0 01-1 1h-5v-6H9v6H4a1 1 0 01-1-1z"/></svg>En domicilio</button>
+          </div>
+        </div>
+      </div>
+
+      <aside class="ticket rv d2" aria-live="polite">
+        <h3>Tu solicitud</h3>
+        <p class="sub">Resumen listo para enviar</p>
+        <div class="rows">
+          <div class="row"><span>Institución</span><b id="sInst">IMSS</b></div>
+          <div class="row"><span>Soy</span><b id="sTipo">Jubilado(a)</b></div>
+          <div class="row"><span>Plazo</span><b id="sPlazo">48 meses</b></div>
+          <div class="row" style="border:0;padding:0"><span>Trámite</span><b id="sModo">En línea</b></div>
+        </div>
+        <div class="dash"></div>
+        <div class="tags"><span>Descuento a nómina</span><span>Sin límite de edad</span><span>Trámite sin costo</span></div>
+        <a class="btn btn-wa" id="sendWa" target="_blank" rel="noopener">
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M17.5 14.4c-.3-.1-1.7-.8-2-.9-.3-.1-.5-.1-.7.1-.2.3-.8.9-.9 1.1-.2.2-.3.2-.6.1-.3-.1-1.2-.5-2.3-1.4-.9-.8-1.4-1.7-1.6-2-.2-.3 0-.5.1-.6l.4-.5c.1-.2.2-.3.3-.5.1-.2 0-.4 0-.5l-.9-2.2c-.2-.6-.5-.5-.7-.5h-.6c-.2 0-.5.1-.8.4-.3.3-1 1-1 2.5s1.1 2.9 1.2 3.1c.1.2 2.1 3.2 5.1 4.5.7.3 1.3.5 1.7.6.7.2 1.4.2 1.9.1.6-.1 1.7-.7 2-1.4.2-.7.2-1.3.2-1.4-.1-.2-.3-.3-.6-.4zM12 21.5c-1.7 0-3.4-.5-4.9-1.3l-.4-.2-3.6.9 1-3.5-.2-.4C3 15.5 2.5 13.8 2.5 12 2.5 6.8 6.8 2.5 12 2.5S21.5 6.8 21.5 12 17.2 21.5 12 21.5zM12 .5C5.7.5.5 5.7.5 12c0 2 .5 4 1.5 5.8L.5 23.5l5.9-1.5c1.7.9 3.6 1.4 5.6 1.4 6.3 0 11.5-5.2 11.5-11.5S18.3.5 12 .5z"/></svg>
+          Enviar por WhatsApp
+        </a>
+        <p class="note">El monto lo define la empresa que deposita tu nómina.</p>
+      </aside>
+    </div>
+  </div>
+</section>
+
+<!-- ============ REQUISITOS ============ -->
+<section class="sec" id="requisitos">
+  <div class="wrap req-grid">
+    <div class="req-photo rv">
+      <img src="img/requisitos64d4.webp?v=20261116b" alt="Pareja de jubilados revisando sus documentos en casa" loading="lazy">
+      <div class="prog-card">
+        <div class="mini-ring">
+          <svg viewBox="0 0 62 62"><circle class="t" cx="31" cy="31" r="26"/><circle class="b" id="miniRing" cx="31" cy="31" r="26" stroke-dasharray="163.4" stroke-dashoffset="163.4"/></svg>
+          <b id="reqCount">0/3</b>
+        </div>
+        <div><strong id="reqMsg">Revisa tus documentos</strong><small>Toca cada requisito para marcarlo</small></div>
+      </div>
+    </div>
+    <div>
+      <div class="rv">
+        <span class="kicker">03 / Documentación</span>
+        <h2 style="font-size:clamp(34px,4.6vw,56px);margin-top:14px;color:var(--navy)">Requisitos.</h2>
+        <p style="color:var(--muted);margin-top:12px;font-size:17.5px">Documentación requerida para el trámite. Solo necesitas tres cosas:</p>
+      </div>
+      <div class="checklist">
+        <button class="check rv d1" aria-pressed="false"><span class="n">01</span><div><h3>Número de afiliación</h3><p>De tu institución (IMSS, ISSSTE, CFE, PEMEX o IPEJAL).</p></div><span class="box"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12.5l4.5 4.5L19 7.5"/></svg></span></button>
+        <button class="check rv d2" aria-pressed="false"><span class="n">02</span><div><h3>Estado de cuenta de los últimos dos meses</h3><p>Donde se deposita tu pensión.</p></div><span class="box"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12.5l4.5 4.5L19 7.5"/></svg></span></button>
+        <button class="check rv d3" aria-pressed="false"><span class="n">03</span><div><h3>INE por ambos lados</h3><p>Identificación oficial vigente.</p></div><span class="box"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12.5l4.5 4.5L19 7.5"/></svg></span></button>
+      </div>
+      <div class="hint rv d4"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="12" cy="12" r="10"/><path d="M12 8v5M12 16h.01"/></svg>¿Ya los tienes? Puedes enviarlos por WhatsApp desde tu celular.</div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ MODALIDADES ============ -->
+<section class="sec mod" id="modalidades">
+  <div class="wrap">
+    <div class="sec-head">
+      <div class="rv">
+        <span class="kicker">04 / Modalidades</span>
+        <h2>Tú eliges cómo <em>realizar el trámite.</em></h2>
+      </div>
+      <p class="rv d1">El trámite puede realizarse de las siguientes maneras:</p>
+    </div>
+    <div class="mod-grid" id="modGrid">
+      <a class="mcard rv" data-wa data-msg="Hola, quiero realizar mi trámite de préstamo EN LÍNEA." target="_blank" rel="noopener">
+        <img src="img/tramite-en-linea64d4.webp?v=20261116b" alt="Señor jubilado haciendo su trámite en línea desde su computadora" loading="lazy">
+        <span class="n">01</span>
+        <div class="c">
+          <span class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><rect x="6" y="2" width="12" height="20" rx="3"/><path d="M11 18h2"/></svg></span>
+          <h3>En línea</h3>
+          <p>Desde tu celular, sin salir de casa.</p>
+          <span class="go">Iniciar en línea <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span>
+        </div>
+      </a>
+      <a class="mcard rv d1" data-wa data-msg="Hola, quiero realizar mi trámite de préstamo EN OFICINA." target="_blank" rel="noopener">
+        <img src="img/tramite-en-oficina64d4.webp?v=20261116b" alt="Asesora atendiendo a una pareja de jubilados en oficina" loading="lazy">
+        <span class="n">02</span>
+        <div class="c">
+          <span class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 21h18M6 21V5a2 2 0 012-2h8a2 2 0 012 2v16M10 7h4M10 11h4M10 15h4"/></svg></span>
+          <h3>En oficina</h3>
+          <p>Te atendemos en persona.</p>
+          <span class="go">Agendar visita <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span>
+        </div>
+      </a>
+      <a class="mcard rv d2" data-wa data-msg="Hola, quiero realizar mi trámite de préstamo EN DOMICILIO." target="_blank" rel="noopener">
+        <img src="img/tramite-en-domicilio64d4.webp?v=20261116b" alt="Asesora visitando a una pareja de jubilados en su casa" loading="lazy">
+        <span class="n">03</span>
+        <div class="c">
+          <span class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 11l9-7 9 7v9a1 1 0 01-1 1h-5v-6H9v6H4a1 1 0 01-1-1z"/></svg></span>
+          <h3>En domicilio</h3>
+          <p>Vamos hasta la comodidad de tu hogar.</p>
+          <span class="go">Solicitar visita <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span>
+        </div>
+      </a>
+    </div>
+    <div class="dots" id="modDots" aria-hidden="true"><i class="on"></i><i></i><i></i></div>
+  </div>
+</section>
+
+<!-- ============ PROCESO ============ -->
+<section class="sec" id="proceso">
+  <div class="wrap">
+    <div class="sec-head">
+      <div class="rv">
+        <span class="kicker">05 / Así de fácil</span>
+        <h2>Tu préstamo, <em>paso a paso.</em></h2>
+      </div>
+      <p class="rv d1">Un proceso sencillo, pensado para ti.</p>
+    </div>
+    <div class="steps" id="steps">
+      <div class="line"><i></i></div>
+      <div class="step"><span class="bub"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12a9 9 0 01-13.5 7.8L3 21l1.2-4.5A9 9 0 1121 12z"/></svg></span><div><h3>Contáctanos</h3><p>Escríbenos por WhatsApp y cuéntanos tu institución.</p></div></div>
+      <div class="step"><span class="bub"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 00-2 2v16a2 2 0 002 2h12a2 2 0 002-2V8z"/><path d="M14 2v6h6M9 15l2 2 4-4"/></svg></span><div><h3>Reúne tus documentos</h3><p>Afiliación, estados de cuenta e INE.</p></div></div>
+      <div class="step"><span class="bub"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="17" rx="3"/><path d="M3 9h18M8 2v4M16 2v4"/></svg></span><div><h3>Elige plazo y modalidad</h3><p>Hasta 48 meses: en línea, oficina o domicilio.</p></div></div>
+      <div class="step"><span class="bub"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2l8 3v6c0 5-3.4 9.3-8 11-4.6-1.7-8-6-8-11V5l8-3z"/><path d="M8.5 12l2.5 2.5 4.5-5"/></svg></span><div><h3>Descuento a nómina</h3><p>Tus pagos se descuentan directo de tu nómina.</p></div></div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ FAQ ============ -->
+<section class="sec faq" id="preguntas">
+  <div class="wrap faq-grid">
+    <div class="faq-side rv">
+      <span class="kicker">06 / Preguntas frecuentes</span>
+      <h2 style="font-size:clamp(34px,4.6vw,56px);margin-top:14px;color:var(--navy)">Resolvemos <em>tus dudas.</em></h2>
+      <p>¿Tienes otra pregunta? Escríbenos y con gusto te orientamos.</p>
+      <a class="btn btn-wa" data-wa data-msg="Hola, tengo una duda sobre los préstamos para jubilados y pensionados." target="_blank" rel="noopener">
+        <svg viewBox="0 0 24 24" fill="currentColor"><path d="M17.5 14.4c-.3-.1-1.7-.8-2-.9-.3-.1-.5-.1-.7.1-.2.3-.8.9-.9 1.1-.2.2-.3.2-.6.1-.3-.1-1.2-.5-2.3-1.4-.9-.8-1.4-1.7-1.6-2-.2-.3 0-.5.1-.6l.4-.5c.1-.2.2-.3.3-.5.1-.2 0-.4 0-.5l-.9-2.2c-.2-.6-.5-.5-.7-.5h-.6c-.2 0-.5.1-.8.4-.3.3-1 1-1 2.5s1.1 2.9 1.2 3.1c.1.2 2.1 3.2 5.1 4.5.7.3 1.3.5 1.7.6.7.2 1.4.2 1.9.1.6-.1 1.7-.7 2-1.4.2-.7.2-1.3.2-1.4-.1-.2-.3-.3-.6-.4zM12 21.5c-1.7 0-3.4-.5-4.9-1.3l-.4-.2-3.6.9 1-3.5-.2-.4C3 15.5 2.5 13.8 2.5 12 2.5 6.8 6.8 2.5 12 2.5S21.5 6.8 21.5 12 17.2 21.5 12 21.5zM12 .5C5.7.5.5 5.7.5 12c0 2 .5 4 1.5 5.8L.5 23.5l5.9-1.5c1.7.9 3.6 1.4 5.6 1.4 6.3 0 11.5-5.2 11.5-11.5S18.3.5 12 .5z"/></svg>
+        Preguntar por WhatsApp
+      </a>
+    </div>
+    <div class="acc" id="acc">
+      <div class="qa open rv"><button aria-expanded="true">¿Hay límite de edad para solicitar?<span class="pm"></span></button><div class="ans"><div><p>No. Los préstamos son sin límite de edad para jubilados y pensionados.</p></div></div></div>
+      <div class="qa rv d1"><button aria-expanded="false">¿A qué plazo puedo pagar?<span class="pm"></span></button><div class="ans"><div><p>El plazo es a elegir, hasta 48 meses.</p></div></div></div>
+      <div class="qa rv d2"><button aria-expanded="false">¿El trámite tiene algún costo?<span class="pm"></span></button><div class="ans"><div><p>No. Los trámites son sin costo.</p></div></div></div>
+      <div class="qa rv d3"><button aria-expanded="false">¿Cómo se define el monto del préstamo?<span class="pm"></span></button><div class="ans"><div><p>El monto lo define la empresa que deposita la nómina, según su alcance.</p></div></div></div>
+      <div class="qa rv d3"><button aria-expanded="false">¿Cómo se paga el préstamo?<span class="pm"></span></button><div class="ans"><div><p>Con descuento directo a nómina, así no tienes que preocuparte por ir a pagar.</p></div></div></div>
+      <div class="qa rv d4"><button aria-expanded="false">¿Qué instituciones atienden?<span class="pm"></span></button><div class="ans"><div><p>Jubilados y pensionados de IMSS, ISSSTE, CFE, PEMEX e IPEJAL.</p></div></div></div>
+      <div class="qa rv d4"><button aria-expanded="false">¿Puedo hacer el trámite sin salir de casa?<span class="pm"></span></button><div class="ans"><div><p>Sí. Puedes realizarlo en línea o en tu domicilio; también puedes acudir a oficina si lo prefieres.</p></div></div></div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ CTA ============ -->
+<section class="cta">
+  <div class="wrap">
+    <div class="cta-box rv">
+      <img src="img/contacto64d4.webp?v=20261116b" alt="" loading="lazy">
+      <div>
+        <span class="kicker" style="color:var(--gold-2)">Información importante</span>
+        <h2 style="margin-top:14px">Trámites <em>sin costo.</em></h2>
+        <p>Da el primer paso hoy. Escríbenos y te explicamos todo con calma, sin compromiso.</p>
+        <div class="cta-chips">
+          <span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12.5l4.5 4.5L19 7.5"/></svg>Sin límite de edad</span>
+          <span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12.5l4.5 4.5L19 7.5"/></svg>Hasta 48 meses</span>
+          <span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12.5l4.5 4.5L19 7.5"/></svg>Descuento a nómina</span>
+        </div>
+      </div>
+      <div class="cta-actions">
+        <a class="btn btn-gold" data-wa data-msg="Hola, quiero solicitar un préstamo para jubilados y pensionados." target="_blank" rel="noopener">
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M17.5 14.4c-.3-.1-1.7-.8-2-.9-.3-.1-.5-.1-.7.1-.2.3-.8.9-.9 1.1-.2.2-.3.2-.6.1-.3-.1-1.2-.5-2.3-1.4-.9-.8-1.4-1.7-1.6-2-.2-.3 0-.5.1-.6l.4-.5c.1-.2.2-.3.3-.5.1-.2 0-.4 0-.5l-.9-2.2c-.2-.6-.5-.5-.7-.5h-.6c-.2 0-.5.1-.8.4-.3.3-1 1-1 2.5s1.1 2.9 1.2 3.1c.1.2 2.1 3.2 5.1 4.5.7.3 1.3.5 1.7.6.7.2 1.4.2 1.9.1.6-.1 1.7-.7 2-1.4.2-.7.2-1.3.2-1.4-.1-.2-.3-.3-.6-.4zM12 21.5c-1.7 0-3.4-.5-4.9-1.3l-.4-.2-3.6.9 1-3.5-.2-.4C3 15.5 2.5 13.8 2.5 12 2.5 6.8 6.8 2.5 12 2.5S21.5 6.8 21.5 12 17.2 21.5 12 21.5zM12 .5C5.7.5.5 5.7.5 12c0 2 .5 4 1.5 5.8L.5 23.5l5.9-1.5c1.7.9 3.6 1.4 5.6 1.4 6.3 0 11.5-5.2 11.5-11.5S18.3.5 12 .5z"/></svg>
+          Escríbenos por WhatsApp
+        </a>
+        <a class="btn btn-ghost" href="#requisitos">Ver requisitos</a>
+      </div>
+    </div>
+  </div>
+</section>
+</main>
+
+<!-- ============ FOOTER ============ -->
+<footer>
+  <div class="wrap">
+    <div class="f-grid">
+      <div class="f-about">
+        <a href="#inicio" class="brand">
+          <span class="brand-mark" aria-hidden="true"><svg viewBox="0 0 48 48" fill="none" stroke="#2b1748"><path d="M12 36V12h14a9 9 0 0 1 0 18H12" stroke-width="4.3" stroke-linecap="round" stroke-linejoin="round"/><path d="M12 37h23" stroke-width="4.3" stroke-linecap="round"/></svg></span>
+          <span class="brand-txt"><b>PRÉSTAMOS</b><span>Jubilados y Pensionados</span></span>
+        </a>
+        <p>Préstamos para jubilados y pensionados con descuento directo a nómina.</p>
+        <div class="socials">
+          <!-- PENDIENTE: reemplaza el "#" por el enlace de Facebook -->
+          <a class="fb" href="#" target="_blank" rel="noopener" aria-label="Facebook"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M14 8.5V6.8c0-.8.2-1.3 1.4-1.3H17V2.3c-.3 0-1.3-.1-2.5-.1-2.5 0-4.2 1.5-4.2 4.3v2H7.5v3.6h2.8V22H14v-9.9h2.8l.4-3.6H14z"/></svg></a>
+          <!-- PENDIENTE: reemplaza el "#" por el enlace de Instagram -->
+          <a class="ig" href="#" target="_blank" rel="noopener" aria-label="Instagram"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1" fill="currentColor"/></svg></a>
+          <a class="wa" data-wa data-msg="Hola, quiero información sobre los préstamos." target="_blank" rel="noopener" aria-label="WhatsApp"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M17.5 14.4c-.3-.1-1.7-.8-2-.9-.3-.1-.5-.1-.7.1-.2.3-.8.9-.9 1.1-.2.2-.3.2-.6.1-.3-.1-1.2-.5-2.3-1.4-.9-.8-1.4-1.7-1.6-2-.2-.3 0-.5.1-.6l.4-.5c.1-.2.2-.3.3-.5.1-.2 0-.4 0-.5l-.9-2.2c-.2-.6-.5-.5-.7-.5h-.6c-.2 0-.5.1-.8.4-.3.3-1 1-1 2.5s1.1 2.9 1.2 3.1c.1.2 2.1 3.2 5.1 4.5.7.3 1.3.5 1.7.6.7.2 1.4.2 1.9.1.6-.1 1.7-.7 2-1.4.2-.7.2-1.3.2-1.4-.1-.2-.3-.3-.6-.4zM12 21.5c-1.7 0-3.4-.5-4.9-1.3l-.4-.2-3.6.9 1-3.5-.2-.4C3 15.5 2.5 13.8 2.5 12 2.5 6.8 6.8 2.5 12 2.5S21.5 6.8 21.5 12 17.2 21.5 12 21.5zM12 .5C5.7.5.5 5.7.5 12c0 2 .5 4 1.5 5.8L.5 23.5l5.9-1.5c1.7.9 3.6 1.4 5.6 1.4 6.3 0 11.5-5.2 11.5-11.5S18.3.5 12 .5z"/></svg></a>
+        </div>
+      </div>
+      <div>
+        <h4>Navegación</h4>
+        <ul>
+          <li><a href="#inicio">Inicio</a></li>
+          <li><a href="#instituciones">Instituciones</a></li>
+          <li><a href="#condiciones">Condiciones</a></li>
+          <li><a href="#requisitos">Requisitos</a></li>
+          <li><a href="#modalidades">Modalidades</a></li>
+          <li><a href="#preguntas">Preguntas frecuentes</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Condiciones</h4>
+        <ul>
+          <li>Sin límite de edad</li>
+          <li>Plazo hasta 48 meses</li>
+          <li>Trámites sin costo</li>
+          <li>Descuento directo a nómina</li>
+        </ul>
+      </div>
+      <div>
+        <h4>Instituciones</h4>
+        <div class="inst-tags"><span>IMSS</span><span>ISSSTE</span><span>CFE</span><span>PEMEX</span><span>IPEJAL</span></div>
+      </div>
+    </div>
+    <div class="f-bottom">
+      <span>© <span id="yr">2026</span> Préstamos para Jubilados y Pensionados.</span>
+      <span class="credit">Diseñado por <a href="https://vittacleanlimpieza.com.mx/" target="_blank" rel="noopener">Droma web</a></span>
+      <a href="#inicio" class="to-top">Volver arriba <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M12 19V5M6 11l6-6 6 6"/></svg></a>
+    </div>
+  </div>
+</footer>
+
+<!-- ============ WhatsApp flotante ============ -->
+<div class="wa-float">
+  <div class="wa-tip" id="waTip" role="status">
+    <button class="x" id="waTipX" aria-label="Cerrar">×</button>
+    <b>¿Te ayudamos? 👋</b>Escríbenos y resolvemos tus dudas.
+  </div>
+  <a class="wa-btn" data-wa data-msg="Hola, quiero información sobre los préstamos para jubilados y pensionados." target="_blank" rel="noopener" aria-label="Contactar por WhatsApp">
+    <svg viewBox="0 0 24 24" fill="currentColor"><path d="M17.5 14.4c-.3-.1-1.7-.8-2-.9-.3-.1-.5-.1-.7.1-.2.3-.8.9-.9 1.1-.2.2-.3.2-.6.1-.3-.1-1.2-.5-2.3-1.4-.9-.8-1.4-1.7-1.6-2-.2-.3 0-.5.1-.6l.4-.5c.1-.2.2-.3.3-.5.1-.2 0-.4 0-.5l-.9-2.2c-.2-.6-.5-.5-.7-.5h-.6c-.2 0-.5.1-.8.4-.3.3-1 1-1 2.5s1.1 2.9 1.2 3.1c.1.2 2.1 3.2 5.1 4.5.7.3 1.3.5 1.7.6.7.2 1.4.2 1.9.1.6-.1 1.7-.7 2-1.4.2-.7.2-1.3.2-1.4-.1-.2-.3-.3-.6-.4zM12 21.5c-1.7 0-3.4-.5-4.9-1.3l-.4-.2-3.6.9 1-3.5-.2-.4C3 15.5 2.5 13.8 2.5 12 2.5 6.8 6.8 2.5 12 2.5S21.5 6.8 21.5 12 17.2 21.5 12 21.5zM12 .5C5.7.5.5 5.7.5 12c0 2 .5 4 1.5 5.8L.5 23.5l5.9-1.5c1.7.9 3.6 1.4 5.6 1.4 6.3 0 11.5-5.2 11.5-11.5S18.3.5 12 .5z"/></svg>
+    <span class="wa-badge">1</span>
+  </a>
+</div>
+
+<!-- ============ Barra tipo app (móvil) ============ -->
+<nav class="tabbar" id="tabbar" aria-label="Navegación móvil">
+  <a href="#inicio" data-t="inicio"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 11l9-7 9 7v9a1 1 0 01-1 1h-5v-6H9v6H4a1 1 0 01-1-1z"/></svg>Inicio</a>
+  <a href="#condiciones" data-t="condiciones"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="7" height="7" rx="2"/><rect x="14" y="3" width="7" height="7" rx="2"/><rect x="3" y="14" width="7" height="7" rx="2"/><rect x="14" y="14" width="7" height="7" rx="2"/></svg>Condiciones</a>
+  <a href="#solicitud" class="center" data-t="solicitud"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"><path d="M12 5v14M5 12h14"/></svg>Solicitar</a>
+  <a href="#requisitos" data-t="requisitos"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 00-2 2v16a2 2 0 002 2h12a2 2 0 002-2V8z"/><path d="M14 2v6h6M9 15l2 2 4-4"/></svg>Requisitos</a>
+  <a class="tab-wa" data-wa data-msg="Hola, quiero información sobre los préstamos para jubilados y pensionados." target="_blank" rel="noopener" aria-label="Escríbenos por WhatsApp"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M17.5 14.4c-.3-.1-1.7-.8-2-.9-.3-.1-.5-.1-.7.1-.2.3-.8.9-.9 1.1-.2.2-.3.2-.6.1-.3-.1-1.2-.5-2.3-1.4-.9-.8-1.4-1.7-1.6-2-.2-.3 0-.5.1-.6l.4-.5c.1-.2.2-.3.3-.5.1-.2 0-.4 0-.5l-.9-2.2c-.2-.6-.5-.5-.7-.5h-.6c-.2 0-.5.1-.8.4-.3.3-1 1-1 2.5s1.1 2.9 1.2 3.1c.1.2 2.1 3.2 5.1 4.5.7.3 1.3.5 1.7.6.7.2 1.4.2 1.9.1.6-.1 1.7-.7 2-1.4.2-.7.2-1.3.2-1.4-.1-.2-.3-.3-.6-.4zM12 21.5c-1.7 0-3.4-.5-4.9-1.3l-.4-.2-3.6.9 1-3.5-.2-.4C3 15.5 2.5 13.8 2.5 12 2.5 6.8 6.8 2.5 12 2.5S21.5 6.8 21.5 12 17.2 21.5 12 21.5zM12 .5C5.7.5.5 5.7.5 12c0 2 .5 4 1.5 5.8L.5 23.5l5.9-1.5c1.7.9 3.6 1.4 5.6 1.4 6.3 0 11.5-5.2 11.5-11.5S18.3.5 12 .5z"/></svg>WhatsApp</a>
+</nav>
+
+<script>
+/* =========================================================
+   CONFIGURACIÓN — PENDIENTE
+   Escribe aquí el número de WhatsApp con lada de país,
+   sin espacios ni signos. Ejemplo México: 5218711234567
+   ========================================================= */
+const WHATSAPP = "520000000000";
+
+(function(){
+  const $=(s,c=document)=>c.querySelector(s), $$=(s,c=document)=>[...c.querySelectorAll(s)];
+  const waLink=m=>`https://wa.me/${WHATSAPP}?text=${encodeURIComponent(m)}`;
+  $$('[data-wa]').forEach(a=>a.href=waLink(a.dataset.msg||'Hola'));
+  $('#yr').textContent=new Date().getFullYear();
+
+  /* Header + progress */
+  const header=$('#header'), prog=$('#progress');
+  const onScroll=()=>{
+    const y=scrollY, h=document.documentElement.scrollHeight-innerHeight;
+    header.classList.toggle('scrolled',y>30);
+    prog.style.transform=`scaleX(${h>0?y/h:0})`;
+  };
+  addEventListener('scroll',onScroll,{passive:true}); onScroll();
+
+  /* Reveal */
+  const io=new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting){e.target.classList.add('in');io.unobserve(e.target)}}),{threshold:.14,rootMargin:'0px 0px -40px 0px'});
+  $$('.rv,#steps').forEach(el=>io.observe(el));
+
+  /* Counters */
+  const countIO=new IntersectionObserver(es=>es.forEach(e=>{
+    if(!e.isIntersecting)return; countIO.unobserve(e.target);
+    const el=e.target,to=+el.dataset.count,d=1600,t0=performance.now();
+    if(!to){el.textContent='0';return}
+    const step=t=>{const p=Math.min((t-t0)/d,1);el.textContent=Math.round(to*(1-Math.pow(1-p,3)));if(p<1)requestAnimationFrame(step)};
+    requestAnimationFrame(step);
+  }),{threshold:.5});
+  $$('[data-count]').forEach(el=>countIO.observe(el));
+
+  /* Big ring */
+  const ring=$('#bigRing');
+  new IntersectionObserver((es,o)=>es.forEach(e=>{if(e.isIntersecting){ring.style.strokeDashoffset='0';o.disconnect()}}),{threshold:.4}).observe($('#plazoTile'));
+
+  /* Rotator */
+  const rs=$$('#rot span'); let ri=0;
+  setInterval(()=>{const cur=rs[ri];cur.classList.remove('on');cur.classList.add('out');ri=(ri+1)%rs.length;const nx=rs[ri];nx.classList.remove('out');void nx.offsetWidth;nx.classList.add('on');setTimeout(()=>cur.classList.remove('out'),650)},2200);
+
+  /* Scrollspy: desktop pill + mobile tabbar */
+  const nav=$('#nav'), pill=$('.pill',nav), links=$$('a',nav), tabs=$$('#tabbar a');
+  const movePill=a=>{if(!a){pill.style.opacity=0;return}pill.style.opacity=1;pill.style.width=a.offsetWidth+'px';pill.style.transform=`translateX(${a.offsetLeft}px)`};
+  const setActive=id=>{
+    links.forEach(a=>a.classList.toggle('active',a.getAttribute('href')==='#'+id));
+    movePill(links.find(a=>a.getAttribute('href')==='#'+id));
+    const map={inicio:'inicio',instituciones:'inicio',condiciones:'condiciones',solicitud:'solicitud',requisitos:'requisitos',modalidades:'',proceso:'',preguntas:''};
+    tabs.forEach(t=>t.classList.toggle('active',t.dataset.t===map[id]));
+  };
+  const spy=new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting)setActive(e.target.id)}),{rootMargin:'-45% 0px -50% 0px'});
+  ['inicio','instituciones','condiciones','solicitud','requisitos','modalidades','proceso','preguntas'].forEach(id=>{const s=document.getElementById(id);if(s)spy.observe(s)});
+  addEventListener('resize',()=>movePill(links.find(a=>a.classList.contains('active'))));
+  setActive('inicio');
+
+  /* Carousel dots (mobile) */
+  const dots=(grid,dotsEl)=>{const ds=$$('i',dotsEl),items=[...grid.children];grid.addEventListener('scroll',()=>{const c=grid.scrollLeft+grid.clientWidth/2;let idx=0,best=1e9;items.forEach((it,i)=>{const m=it.offsetLeft+it.offsetWidth/2,d=Math.abs(m-c);if(d<best){best=d;idx=i}});ds.forEach((d,i)=>d.classList.toggle('on',i===idx))},{passive:true})};
+  dots($('#instGrid'),$('#instDots')); dots($('#modGrid'),$('#modDots'));
+
+  /* Solicitud builder */
+  const state={inst:'IMSS',tipo:'Jubilado(a)',modo:'En línea',plazo:48};
+  const out={inst:$('#sInst'),tipo:$('#sTipo'),modo:$('#sModo'),plazo:$('#sPlazo')};
+  const flash=el=>{el.classList.remove('flash');void el.offsetWidth;el.classList.add('flash')};
+  const render=()=>{
+    out.inst.textContent=state.inst; out.tipo.textContent=state.tipo; out.modo.textContent=state.modo; out.plazo.textContent=state.plazo+' meses';
+    $('#sendWa').href=waLink(`Hola, me interesa un préstamo para jubilados y pensionados.\n\n• Institución: ${state.inst}\n• Soy: ${state.tipo}\n• Plazo deseado: ${state.plazo} meses\n• Trámite: ${state.modo}\n\n¿Me pueden dar información?`);
+  };
+  $$('[data-group]').forEach(g=>g.addEventListener('click',e=>{
+    const b=e.target.closest('button');if(!b)return;
+    $$('button',g).forEach(x=>x.setAttribute('aria-pressed',x===b));
+    state[g.dataset.group]=b.dataset.v; render(); flash(out[g.dataset.group]);
+  }));
+  const r=$('#plazo'), pv=$('#plazoVal');
+  const upd=()=>{state.plazo=+r.value;pv.innerHTML=r.value+'<small>meses</small>';r.style.setProperty('--p',((r.value-r.min)/(r.max-r.min)*100)+'%');render()};
+  r.addEventListener('input',upd); r.addEventListener('change',()=>flash(out.plazo)); upd();
+
+  /* Requisitos checklist */
+  const checks=$$('.check'), mini=$('#miniRing'), C=163.4;
+  const msgs=['Revisa tus documentos','¡Vas muy bien!','¡Ya casi!','¡Listo para tu trámite! 🎉'];
+  checks.forEach(c=>c.addEventListener('click',()=>{
+    c.setAttribute('aria-pressed',c.getAttribute('aria-pressed')!=='true');
+    const n=checks.filter(x=>x.getAttribute('aria-pressed')==='true').length;
+    mini.style.strokeDashoffset=C-(C*n/3); $('#reqCount').textContent=n+'/3'; $('#reqMsg').textContent=msgs[n];
+  }));
+
+  /* FAQ accordion */
+  $$('#acc .qa').forEach(q=>$('button',q).addEventListener('click',()=>{
+    const open=!q.classList.contains('open');
+    $$('#acc .qa').forEach(x=>{x.classList.remove('open');$('button',x).setAttribute('aria-expanded','false')});
+    if(open){q.classList.add('open');$('button',q).setAttribute('aria-expanded','true')}
+  }));
+
+  /* Hero parallax tilt (desktop) */
+  const hv=$('#heroVisual');
+  if(matchMedia('(hover:hover) and (min-width:861px)').matches && !matchMedia('(prefers-reduced-motion:reduce)').matches){
+    $('.hero').addEventListener('mousemove',e=>{const x=e.clientX/innerWidth-.5,y=e.clientY/innerHeight-.5;hv.style.transform=`perspective(1000px) rotateY(${x*6}deg) rotateX(${-y*6}deg)`});
+    $('.hero').addEventListener('mouseleave',()=>hv.style.transform='');
+    hv.style.transition='transform .6s cubic-bezier(.22,1,.36,1)';
+  }
+
+  /* WhatsApp tooltip */
+  const tip=$('#waTip'); let closed=false;
+  setTimeout(()=>{if(!closed)tip.classList.add('show')},4000);
+  setTimeout(()=>tip.classList.remove('show'),13000);
+  $('#waTipX').addEventListener('click',()=>{closed=true;tip.classList.remove('show')});
+})();
+</script>
+</body>
+</html>
